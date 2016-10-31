@@ -37,7 +37,15 @@ $(function(){
 	$("#botao1")
 });
 
+// alterando o valor do atributo href na tag <a>
+$(function() {
+	$('a').attr('href', 'google.com');
+});
 
+$(function() {
+	$('img').attr('width', '30%');
+	$('img').attr('border', '5');
+});
 
 
 
