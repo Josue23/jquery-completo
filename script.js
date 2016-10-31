@@ -1,9 +1,10 @@
+// document é toda a página
 $(document).ready(function() {
 	alert("Olá, com document.ready");
 });
 
 // outra forma de fazer a mesma função
-$(function(){
+$(function(){  // retira (document).ready
 	alert("Olá. sem document.ready");
 });
 
@@ -15,6 +16,22 @@ function tudoPronto() {
 // quando o document(toda a página) tiver pronto ele vai executar essa função
 $(document).ready(tudoPronto)
 
+
+// evitando conflitos com outras libs
+// var $j = jQuery.noConflict();
+
+// $j(document).ready(function() {
+// 	alert("Funcionando sem conflitos....");
+// });
+
+
+// acessando o jQuery nativo sem atalhos
+jQuery(document).ready(function() {
+	alert("jQuery nativo sem atalhos!!!");
+});
+
+
+// aula6.Selecionando-Elementos(objetos)-do-HTML.mp4
 
 $(function(){
 	$("#botao1")
