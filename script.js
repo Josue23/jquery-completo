@@ -37,7 +37,7 @@ $(function(){
 	$("#botao1")
 });
 
-// alterando o valor do atributo href na tag <a>
+// aula7 alterando o valor do atributo href na tag <a>
 $(function() {
 	$('a').attr('href', 'google.com');
 });
@@ -48,9 +48,17 @@ $(function() {
 });
 
 
+// aula8
+$(function() { // altera o conteúdo entre as tags <div></div>
+	$('#teste').html("Texto alterado.");
+});
 
-
-
+// adicionar a classe estilo do css ao elemento html de id test
+$(function() {
+	// $('#test').find('button').addClass('estilo');
+	$('.lista1').find('.botao').addClass('estilo');
+	$('.lista1').find('.botao').html('Novo texto');
+});
 
 
 
