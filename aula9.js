@@ -90,11 +90,25 @@ $(function() {
     $('input').after('(Obrigatório)');
 })
 
+/*
+adicionar fora do elemento:
+- antes do elemento: .before();
+- depois do elemento: .after();
+
+adicionar dentro do elemento:
+- antes do primeiro item do elemento: .prepend();
+- depois do último item do elemento: .append();
+*/
+
+$(function() {
+    $('#teste').html('Limpa tudo.......');
+});
 
 
-
-
-
+// remover o campo de input
+$(function() {
+    $('input').remove();
+});
 
 
 
