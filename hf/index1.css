@@ -1,17 +1,5 @@
 @charset 'utf-8';
 
-/*a:link img, a:visited img {
-    display: none;
-}
-
-a:hover img, a:active img {
-    display: block;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}*/
 
 #clickMe  {
     background-color: #D8B36E;
