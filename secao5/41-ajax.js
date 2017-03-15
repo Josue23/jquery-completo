@@ -1,6 +1,10 @@
 $(function() {
     $('button').bind('click', function() {
-        // método auxiliar do ajax
-        $('.div').load("41.1-ajax.html");
+        // requisita 41.1-ajax.html
+        // faz a função
+        // armazena o resultado no parâmetro data
+        $.get("41.1-ajax.html", function(data) {
+            $('.div').html(data);
+        });
     })
 });
