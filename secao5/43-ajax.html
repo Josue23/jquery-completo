@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Método serialize</title>
+    <style>
+    .div {
+      width: 200px;
+      height: 170px;
+      background-color: #eee;
+    }
+    </style>
+  </head>
+  <body>
+    <p>O <strong>método serialize</strong> pega todos os dados preenchidos e não preenchidos do formulário <br />  e os formata em formato de <strong>query string</strong> para facilitar o envio pelo <strong>ajax</strong></p>
+
+    <form id="form" method="POST">
+      Usuário:<br />
+      <input type="text" autofocus name="usuario"><br /><br />
+
+      Senha:<br />
+      <input type="password" name="senha"><br /><br />
+
+      <input type="submit" value="Entrar">
+    </form>
+
+    <div class="div"></div>
+
+    <button>Ação</button>
+
+    <script src="jquery.js"></script>
+    <script src="43-ajax.js"></script>
+  </body>
+</html>
