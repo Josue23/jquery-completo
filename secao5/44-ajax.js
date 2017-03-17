@@ -14,7 +14,7 @@ $(function() {
         // enviar informações para o ajax
         // 1º parâmetro: um json
         $.ajax({
-            type:'GET',
+            type:'POST',
             url:'44-ajax.php',
             data:txt,
 
